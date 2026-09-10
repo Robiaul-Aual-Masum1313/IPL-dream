@@ -1,0 +1,110 @@
+[
+  {
+    "playerName": "Virat Kohli",
+    "playerImage": "https://www.trillertv.com/thumbs/o/profile/40791_300x300.jpg" ,
+    "origin": "Pakistan",
+    "playerType": "Batter",
+    "bowingStyle": "Right-arm Medium",
+    "battingStyle": "Right-hand Bat",
+    "price": 180
+  },
+  {
+    "playerName": "Babar Azam",
+    "playerImage": "https://www.trillertv.com/thumbs/o/profile/40791_300x300.jpg" ,
+    "origin": "Pakistan",
+    "playerType": "Batter",
+    "bowingStyle": "Right-arm Off Break",
+    "battingStyle": "Right-hand Bat",
+    "price": 160
+  },
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerImage": "https://www.trillertv.com/thumbs/o/profile/40791_300x300.jpg" ,
+    "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "bowingStyle": "Slow Left-arm Orthodox",
+    "battingStyle": "Left-hand Bat",
+    "price": 140
+  },
+  {
+    "playerName": "Rohit Sharma",
+    "playerImage": "https://www.trillertv.com/thumbs/o/profile/40791_300x300.jpg" ,
+    "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "bowingStyle": "Slow Left-arm Orthodox",
+    "battingStyle": "Left-hand Bat",
+    "price": 140
+  },
+  {
+    "playerName": "Kane Williamson",
+    "playerImage": "https://www.trillertv.com/thumbs/o/profile/40791_300x300.jpg" ,
+    "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "bowingStyle": "Slow Left-arm Orthodox",
+    "battingStyle": "Left-hand Bat",
+    "price": 140
+  },
+  {
+    "playerName": "Ben Stokes",
+    "playerImage": "https://www.trillertv.com/thumbs/o/profile/40791_300x300.jpg",
+    "origin": "England",
+    "playerType": "All-Rounder",
+    "bowingStyle": "Right-arm Fast-medium",
+    "battingStyle": "Left-hand Bat",
+    "price": 165
+  },
+  {
+    "playerName": "Rashid Khan",
+    "playerImage": "https://www.trillertv.com/thumbs/o/profile/40791_300x300.jpg",
+    "origin": "Afghanistan",
+    "playerType": "Bowler",
+    "bowingStyle": "Right-arm Leg Break",
+    "battingStyle": "Right-hand Bat",
+    "price": 145
+  },
+  {
+    "playerName": "Jasprit Bumrah",
+    "playerImage": "https://www.trillertv.com/thumbs/o/profile/40791_300x300.jpg",
+    "origin": "India",
+    "playerType": "Bowler",
+    "bowingStyle": "Right-arm Fast",
+    "battingStyle": "Right-hand Bat",
+    "price": 175
+  },
+  {
+    "playerName": "Joe Root",
+    "playerImage": "https://www.trillertv.com/thumbs/o/profile/40791_300x300.jpg",
+    "origin": "England",
+    "playerType": "Batter",
+    "bowingStyle": "Right-arm Off Break",
+    "battingStyle": "Right-hand Bat",
+    "price": 155
+  },
+  {
+    "playerName": "Trent Boult",
+    "playerImage": "https://www.trillertv.com/thumbs/o/profile/40791_300x300.jpg",
+    "origin": "New Zealand",
+    "playerType": "Bowler",
+    "bowingStyle": "Left-arm Fast-medium",
+    "battingStyle": "Left-hand Bat",
+    "price": 135
+  },
+  {
+    "playerName": "Pat Cummins",
+    "playerImage": "https://www.trillertv.com/thumbs/o/profile/40791_300x300.jpg",
+    "origin": "Australia",
+    "playerType": "Bowler",
+    "bowingStyle": "Right-arm Fast",
+    "battingStyle": "Right-hand Bat",
+    "price": 170
+  },
+  {
+    "playerName": "Mohammad Rizwan",
+    "playerImage": "https://www.trillertv.com/thumbs/o/profile/40791_300x300.jpg",
+    "origin": "Pakistan",
+    "playerType": "Wicket-Keeper Batter",
+    "bowingStyle": "Right-arm Medium",
+    "battingStyle": "Right-hand Bat",
+    "price": 130
+  }
+]
