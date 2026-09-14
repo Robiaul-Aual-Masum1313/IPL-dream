@@ -11,13 +11,13 @@ export interface AvailablePlayersProps {
 }
 
 export default function AvailablePlayers({ players, coins , setCoins, selectedPlayers , setSelectedPlayers }: AvailablePlayersProps) {
-      // console.log(coins, 'reom abailplayers');
+
   return (
     <>
       <div className="grid grid-cols-4 gap-7">
         {players.map((player,ind) => {
           return (
-           <PlayerCard key={ind} player={player}   coins={coins} setCoins= {setCoins}  selectedPlayers = {selectedPlayers} setSelectedPlayers = {setSelectedPlayers}> </PlayerCard>
+           <PlayerCard key={ind} player={player}   coins={coins} setCoins= {setCoins}  selectedPlayers = {selectedPlayers} setSelectedPlayers = {setSelectedPlayers} /> 
           );
         })}
       </div>

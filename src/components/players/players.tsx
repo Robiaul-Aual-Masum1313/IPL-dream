@@ -26,7 +26,7 @@ export default function Players({ feachedData, coins , setCoins }: PlayersProps)
                 </div>
             </div>
             <div>
-                {buttonType === 'abailable' ? <AvailablePlayers players = {players}   coins={coins} setCoins= {setCoins} selectedPlayers = {selectedPlayers} setSelectedPlayers = {setSelectedPlayers}> </AvailablePlayers> : <SelectedPlayers selectedPlayers = {selectedPlayers} setSelectedPlayers = {setSelectedPlayers} coins = {coins} setCoins = {setCoins}> </SelectedPlayers>}
+                {buttonType === 'abailable' ? <AvailablePlayers players = {players}   coins={coins} setCoins= {setCoins} selectedPlayers = {selectedPlayers} setSelectedPlayers = {setSelectedPlayers}/>  : <SelectedPlayers selectedPlayers = {selectedPlayers} setSelectedPlayers = {setSelectedPlayers} coins = {coins} setCoins = {setCoins}/>}
                 
             </div>
 

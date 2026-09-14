@@ -1,6 +1,6 @@
 import { FaFlag, FaUser } from "react-icons/fa";
 import type { Iplayers } from "../../types";
-import { useState, type Dispatch, type SetStateAction } from "react";
+import {  type Dispatch, type SetStateAction } from "react";
 import { toast } from "react-toastify";
 
 interface PlayerCardProps {
@@ -18,18 +18,14 @@ export default function PlayerCard({
   selectedPlayers,
   setSelectedPlayers,
 }: PlayerCardProps) {
-  const [isSelected, setIsSelected] = useState(false);
-  // console.log(coins, 'from playercard');
   function clickHandaler() {
     if (selectedPlayers.length < 6) {
       setSelectedPlayers([...selectedPlayers, player]);
-      setIsSelected(true);
     } else {
       toast.error("You reached your Limite");
     }
     if (coins < player.price) {
       toast.error("Not enough coins");
-      setIsSelected(false);
     } else {
       setCoins(coins - player.price);
       toast.success(`${player.playerName} is pursed successfully`);
@@ -102,9 +98,9 @@ export default function PlayerCard({
           <button
             onClick={() => clickHandaler()}
             className="btn btn-primary rounded-xl px-5 shadow-md transition-all hover:scale-105"
-            disabled={isSelected}
+            disabled={selectedPlayers.some(item => item.playerName === player.playerName)}
           >
-            {isSelected === true ? "Selected" : "Choose Player"}
+            {selectedPlayers.some(item => item.playerName === player.playerName) ? "Selected" : "Choose Player"}
           </button>
         </div>
       </div>

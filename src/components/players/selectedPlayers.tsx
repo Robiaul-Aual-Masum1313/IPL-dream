@@ -10,11 +10,13 @@ interface selectedPlayersProp{
 }
 
 export default function SelectedPlayers({selectedPlayers ,  setSelectedPlayers, coins , setCoins} : selectedPlayersProp) {
+
 function handleRemovePlayer (player: Iplayers){
   const filteredPlayers = selectedPlayers.filter(item => item.playerName !== player.playerName)
   setSelectedPlayers(filteredPlayers)
   setCoins(coins + player.price)
 }
+
 if( selectedPlayers.length === 0){
   return (
     <div className="text-center space-y-3">
